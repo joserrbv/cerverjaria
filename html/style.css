@@ -1,0 +1,58 @@
+body {
+    font-family: 'Raleway';
+    background-color: black;
+    color: white;
+
+}
+.titulo {
+   display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.capa {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22%;
+    margin-top: 70px;           
+    
+    background-color: #CA7900;
+    border-radius: 10px;
+    width: 738px; 
+    height: 257px;
+    margin-bottom: 100px;
+              
+    
+}
+p {
+    
+    font-size: 58px;
+
+}
+#casa {
+    font-size: 40px;
+}
+#tempo {
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+
+img {
+    position: absolute;
+    margin-left: 43%;
+}
+button {
+    background-color: #CA7900;
+    border-radius: 10px;
+    height: 55px;
+    width: 190px;
+    font-size: 36px;
+    color: white;
+    border-color: white ;
+}
+#cara {
+    text-align: center;
+    
+}
