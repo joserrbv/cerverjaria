@@ -5,34 +5,60 @@ body {
 }
 .navegacao {
     display: flex;
-    flex-direction: column;                      
+    align-items: center;                     
     justify-content: space-around;
-    text-align: center;
+    
     font-size: 36px;
     height: 107px;
     background-color: #CA7900;
     padding: 0%;
     
 }
+#nave {
+    width: 60%;
+}
+#navi {
+    width: 20%;
+}
 .cada {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    text-align: center;
-    margin-left: 5%;
-    margin-top: -40px;
-    margin-bottom: 300px;
-    height: 216px;
-    width: 1200px;
+    align-items: center;
+     
+}
+.meio {
     background-color: #CA7900;
+    height: 216px;
+    width: 1249px;
     border-radius: 40px;
-    font-size: 36px;
+    text-align: center;
+    margin-top: 140px;
+   
 }
-#imag {
-    margin-top: 100px;
-    margin-left: 43%;
+p {   
+    font-size: 36px; 
+    margin-top: 80px; 
+    
 }
+.imag {   
+    text-align: center; 
+    margin-top: -300px;
+    margin-bottom: 200px;
+    
+}
+
+
 a {
     color: white;
     text-decoration: none;
+    font-size: 26px;
+    margin-left: 5%;
+}
+
+.entrarSite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }

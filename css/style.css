@@ -5,23 +5,29 @@ body {
 
 }
 .titulo {
-   display: flex;
-    text-align: center;
+    display: flex;    
     justify-content: space-around;
+    text-align: center;
 
+}
+.imagem {
+    text-align: center;
+    margin-top: -430px;
 }
 .capa {
     display: flex;
     flex-direction: column;
-    margin-left: 22%;
-    margin-top: 70px;           
+    justify-content: space-around;
+    align-items: center;          
     
+}
+.capao {
     background-color: #CA7900;
-    border-radius: 10px;
-    width: 738px; 
+    border-radius: 40px;
+    width: 1238px; 
     height: 257px;
+    margin-top: 100px;
     margin-bottom: 100px;
-              
     
 }
 p {
@@ -39,18 +45,20 @@ p {
 }
 
 
-img {
-    position: absolute;
-    margin-left: 43%;
-}
+
 button {
     background-color: #CA7900;
     border-radius: 10px;
-    height: 55px;
-    width: 190px;
+    height: 76px;
+    width: 225px;
     font-size: 36px;
     color: white;
-    border-color: white ;
+   border: 7px solid white;
+   padding: 5px 30px 5px 30px;
+   margin-left: 40px;
+   margin-right: 40px;
+
+    
 }
 #cara {
     text-align: center;
